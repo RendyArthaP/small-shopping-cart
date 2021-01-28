@@ -1,6 +1,9 @@
 import React from 'react'
+// import Cart from '../Cart/Cart';
+// import {Link} from 'react-router-dom';
 
 const Navbar = () => {
+  
   return (
     <div className="flex flex-row justify-around py-4 bg-blue-300">
       <a href="/">
