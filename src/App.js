@@ -38,8 +38,8 @@ function App() {
 
   return (
     <div>
-      <Navbar />
-      <div className="">
+      <Navbar counterCartItems={cartItems.length}/>
+      <div className="flex flex-row px-10">
         <Card items={items} addToCart={addToCart}/>
         <Cart cartItems={cartItems} addToCart={addToCart} addRemove={addRemove}/>
       </div>

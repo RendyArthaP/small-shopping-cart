@@ -2,7 +2,7 @@ import React from 'react'
 // import Cart from '../Cart/Cart';
 // import {Link} from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = ({counterCartItems}) => {
   
   return (
     <div className="flex flex-row justify-around py-4 bg-blue-300">
@@ -11,7 +11,7 @@ const Navbar = () => {
       </a>
       <div>
         <span className="text-gray-100">Cart</span>
-        <span className="bg-white px-2 py-1 ml-2">0</span>
+        <span className="bg-white px-2 py-1 ml-2">{counterCartItems}</span>
       </div>
     </div>
   )

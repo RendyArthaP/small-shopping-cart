@@ -3,7 +3,7 @@ import React from 'react'
 const Card = ({items, addToCart}) => {
   return (
     <div>
-      <div className="flex flex-row flex-wrap w-full">
+      <div className="flex flex-row flex-wrap w-7/12">
         {items.map(item => (
           <div 
             key={item.id}
