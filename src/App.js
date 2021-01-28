@@ -1,9 +1,12 @@
-import './App.css';
+import Navbar from './Navbar/Navbar';
+import Card from './Card/Card';
+import {items} from './Data/item';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <Navbar />
+      <Card items={items}/>
     </div>
   );
 }
